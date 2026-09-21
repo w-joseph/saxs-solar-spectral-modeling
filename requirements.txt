@@ -1,0 +1,18 @@
+# Python dependencies for this project.
+# Install with: pip install -r requirements.txt
+#
+# NOT included here: PyXspec. It is not pip-installable — it comes bundled
+# with a HEASOFT installation and requires HEASOFT to be initialized in your
+# shell (e.g. `source $HEADAS/headas-init.sh`) before Python is launched.
+# Run check_heasoft_environment.py to confirm your environment is set up
+# correctly before running any script that imports from xspec.
+
+numpy
+pandas
+matplotlib
+astropy
+sunpy
+netCDF4
+cftime
+xrtpy
+shapely
