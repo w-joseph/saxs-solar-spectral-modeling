@@ -155,8 +155,6 @@ python3 fit_and_plot_spectra.py          # runs a spectral fit and produces a fi
 
 - **PHA response paths**: the PHA files' headers were edited so `RESPFILE`/`ANCRFILE` point into `data/spectra/` — this only resolves correctly when scripts are run from the repo root (see above).
 - **Manual figure saving**: some figures are saved by hand after visual adjustment rather than automatically; see the note at the top of the relevant script.
-- **Fit results may differ slightly from the paper**: re-running the fitting scripts can produce a somewhat different reduced chi-squared and filling factors than reported in the paper, even with unmodified code and data. This is most likely due to differences in the HEASOFT/XSPEC or ATOMDB version between when the paper's original fits were run and whenever this repository is run — the paper does not record which version was used, so this can't be confirmed directly. Components with large reported uncertainties in the paper (e.g. AR/CORE in the flaring-Sun fit, Sect. 3.3.2) appear more sensitive to this than well-constrained ones.
-
 ## License
 
 The code in this repository is MIT licensed (see [LICENSE](LICENSE)).
