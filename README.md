@@ -28,7 +28,7 @@ flowchart TD
     classDef image fill:#8172B2,stroke:#564D82,color:#ffffff,font-weight:bold,font-size:22px
     classDef data fill:#f0f0f0,stroke:#888888,color:#000000,font-weight:bold,font-size:22px
     classDef output fill:#FFE49C,stroke:#8A6D1F,color:#000000,font-weight:bold,font-size:22px
-    classDef subgraphTitle fill:#ffffff,stroke:#333333,color:#000000,font-weight:bold,font-size:26px
+    classDef subgraphTitle fill:#ffffff,stroke:#333333,color:#000000,font-weight:bold,font-size:24px
 
     subgraph extraction["Data extraction"]
         A1["daxss_lightcurve_extraction.py"]:::extract
