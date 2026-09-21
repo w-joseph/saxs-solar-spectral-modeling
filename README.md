@@ -19,6 +19,8 @@ To check whether the models were right, I compared the filling factors they pred
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': {'fontSize': '24px'}}}%%
 flowchart TD
+    linkStyle default stroke:#888888,stroke-width:2.5px
+
     classDef extract fill:#4C72B0,stroke:#2C4870,color:#ffffff,font-weight:bold,font-size:22px
     classDef emd fill:#DD8452,stroke:#A85D2E,color:#ffffff,font-weight:bold,font-size:22px
     classDef core fill:#55A868,stroke:#2E6B3E,color:#ffffff,font-weight:bold,font-size:22px
